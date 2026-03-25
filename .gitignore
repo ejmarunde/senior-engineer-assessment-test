@@ -1,0 +1,31 @@
+# ===== .NET =====
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.userprefs
+*.DotSettings.user
+launchSettings.json
+*.ncrunchproject
+
+# ===== Node / React =====
+node_modules/
+dist/
+.vite/
+*.local
+
+# ===== Environment / secrets =====
+.env
+.env.*.local
+.env.local
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editors =====
+.idea/
+*.swp
+*.swo
