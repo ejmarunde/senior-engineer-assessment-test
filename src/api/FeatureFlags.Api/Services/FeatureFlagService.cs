@@ -14,7 +14,7 @@ public class FeatureFlagService
 
     public IEnumerable<FeatureFlag> GetAll()
     {
-        return _store.Flags.Where(f => f.DeletedAt != null);
+        return _store.Flags.Where(f => f.DeletedAt == null);
     }
 
     public FeatureFlag? GetById(string id)
